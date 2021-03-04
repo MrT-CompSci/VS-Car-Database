@@ -53,8 +53,10 @@ class Car {
     Clown.displayColour();
     Clown.displayDoors();
     
+  /** create an array of the cars */  
     let myArray = [Prius,Banger,Clown];
-    
+
+  /**iterate through them pulling colour */  
     for (var item of myArray) 
     {
       console.log(item.colour)
